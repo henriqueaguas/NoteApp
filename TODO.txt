@@ -1,0 +1,2 @@
+ - ability to edit a note
+ - create a page for the noteto be edited

@@ -1,0 +1,10 @@
+{
+	"include": ["./src/**/*"],
+	"strict": false,
+	"compilerOptions": {
+		"jsx": "react",
+		"target": "ES6",
+		"moduleResolution": "node",
+		"module": "es2020"
+	}
+}

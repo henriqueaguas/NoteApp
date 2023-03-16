@@ -1,0 +1,49 @@
+.note {
+	min-width: 200px;
+	max-width: 200px;
+	min-height: 80px;
+	max-height: 80px;
+
+	width: 200px;
+	height: 80px;
+
+	border: 1px solid #63cc95;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 10px;
+	padding: 10px;
+
+	word-wrap: break-word;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.note:hover {
+	scale: 0.95;
+}
+
+.note-title {
+	color: #b4f1b2;
+	font-weight: bold;
+}
+
+.note-description {
+	max-width: 100%;
+	color: grey;
+	font-size: small;
+}
+
+.note-delete {
+	display: flex;
+	align-self: flex-end;
+	cursor: pointer;
+	background-color: transparent;
+	position: fixed;
+}
+
+.note-delete:hover {
+	transform: scale(1.1);
+}
